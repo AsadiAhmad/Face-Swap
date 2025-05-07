@@ -69,8 +69,8 @@ elon_musk = cv.imread('elon_musk.jpg')
 ```
 
 <div display=flex align=center>
-  <img src="/Pictures/jensen.jpg" width="600px"/>
-  <img src="/Pictures/elon.jpg" width="600px"/>
+  <img src="/Pictures/jensen.jpg" width="400px"/>
+  <img src="/Pictures/elon.jpg" width="400px"/>
 </div>
 
 ### Step 5: Grayscale Images
@@ -81,8 +81,8 @@ elon_musk_gray = cv.cvtColor(elon_musk, cv.COLOR_BGR2GRAY)
 ```
 
 <div display=flex align=center>
-  <img src="/Pictures/jensen.jpg" width="600px"/>
-  <img src="/Pictures/elon.jpg" width="600px"/>
+  <img src="/Pictures/jensen.jpg" width="400px"/>
+  <img src="/Pictures/elon.jpg" width="400px"/>
 </div>
 
 ### Step 6: Load face detector
@@ -133,8 +133,8 @@ elon_musk_landmarks, elon_musk_facial_landmark = extract_facial_landmark(elon_mu
 ```
 
 <div display=flex align=center>
-  <img src="/Pictures/jensen_facial_landmark.jpg" width="600px"/>
-  <img src="/Pictures/elon_facial_landmark.jpg" width="600px"/>
+  <img src="/Pictures/jensen_facial_landmark.jpg" width="400px"/>
+  <img src="/Pictures/elon_facial_landmark.jpg" width="400px"/>
 </div>
 
 ### Step 10: Find Convex Hull
@@ -156,8 +156,8 @@ convex_hull_elon_musk, hull_points_elon_musk = find_convex_hull(elon_musk, elon_
 ```
 
 <div display=flex align=center>
-  <img src="/Pictures/jensen_convex_hull.jpg" width="600px"/>
-  <img src="/Pictures/elon_convex_hull.jpg" width="600px"/>
+  <img src="/Pictures/jensen_convex_hull.jpg" width="400px"/>
+  <img src="/Pictures/elon_convex_hull.jpg" width="400px"/>
 </div>
 
 ### Step 11: Get Delaunay Triangles
@@ -244,8 +244,8 @@ swap2 = align_faces(elon_musk, jensen_huang, delaunay_triangles_jensen_huang, el
 ```
 
 <div display=flex align=center>
-  <img src="/Pictures/jensen_wrapped.jpg" width="600px"/>
-  <img src="/Pictures/elon_wrapped.jpg" width="600px"/>
+  <img src="/Pictures/jensen_wrapped.jpg" width="400px"/>
+  <img src="/Pictures/elon_wrapped.jpg" width="400px"/>
 </div>
 
 ### Step 14: Prepare for Seamless Cloning
@@ -268,8 +268,8 @@ elon_jensen = apply_seamless_clone(swap2, jensen_huang, hull_points_jensen_huang
 ```
 
 <div display=flex align=center>
-  <img src="/Pictures/jensen_swapped.jpg" width="600px"/>
-  <img src="/Pictures/elon_swapped.jpg" width="600px"/>
+  <img src="/Pictures/jensen_swapped.jpg" width="400px"/>
+  <img src="/Pictures/elon_swapped.jpg" width="400px"/>
 </div>
 
 ### Step 15: Store Images
@@ -290,7 +290,7 @@ plt.subplot(224),plt.imshow(elon_jensen[...,::-1]),plt.title('elon_jensen');
 ```
 
 <div display=flex align=center>
-  <img src="/Pictures/result.jpg" width="600px"/>
+  <img src="/Pictures/result.jpg" width="400px"/>
 </div>
 
 
