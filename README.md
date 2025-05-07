@@ -3,11 +3,11 @@ This project performs high-quality face swapping between two portrait images usi
 
 | Elon Musk | Jensen Huang |
 |--------|---------|
-| <img src="Pictures/elon_musk.jpg" width="400"/> | ![img2](Pictures/jensen_huang.jpg){ width=200px } |
+| <img src="Pictures/elon_musk.jpg" width="400"/> | <img src="Pictures/jensen_huang.jpg" width="400"/> |
 
 | Jensen Elon | Elon Jensen |
 |--------|---------|
-| ![img3](Pictures/jensen_elon.jpg) | ![img4](Pictures/elon_jensen.jpg) |
+| <img src="Pictures/jensen_elon.jpg" width="400"/> | <img src="Pictures/elon_jensen.jpg" width="400"/> |
 
 
 ## Tech :hammer_and_wrench: Languages and Tools :
