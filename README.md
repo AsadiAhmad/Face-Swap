@@ -3,7 +3,7 @@ This project performs high-quality face swapping between two portrait images usi
 
 | Elon Musk | Jensen Huang |
 |--------|---------|
-| ![img1](Pictures/elon_musk.jpg){ width=200px height=150px } | ![img2](Pictures/jensen_huang.jpg){ width=200px } |
+| <img src="Pictures/elon_musk.jpg" width="400"/> | ![img2](Pictures/jensen_huang.jpg){ width=200px } |
 
 | Jensen Elon | Elon Jensen |
 |--------|---------|
