@@ -26,3 +26,7 @@ This project performs high-quality face swapping between two portrait images usi
 - OpenCV : Best Library for working with images
 - Numpy : Best Library for working with arrays in python
 - MatPlotLib : Library for showing the charts in python
+
+## 🪪 License
+
+This project is licensed under the MIT License.
