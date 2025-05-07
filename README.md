@@ -1,6 +1,14 @@
 # Face-Swap
 This project performs high-quality face swapping between two portrait images using facial landmark detection, Delaunay triangulation, affine transformation, and OpenCV's seamless cloning. The result is a naturally blended face swap that preserves identity while adapting lighting and skin tone seamlessly.
 
+| Elon Musk | Jensen Huang |
+|--------|---------|
+| ![img1](Pictures/elon_musk.jpg) | ![img2](Pictures/jensen_huang.jpg) |
+
+| Elon Jensen | Jensen Elon |
+|--------|---------|
+| ![img3](Pictures/elon_jensen.jpg) | ![img4](Pictures/jensen_elon.jpg) |
+
 
 ## Tech :hammer_and_wrench: Languages and Tools :
 
