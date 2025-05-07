@@ -33,6 +33,36 @@ This project performs high-quality face swapping between two portrait images usi
 
 You can easily run this code on google colab by just clicking this badge [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AsadiAhmad/Face-Swap/blob/main/Code/Face_Swap.ipynb)
 
+## 🧠 Models Used
+
+1. Dlib’s Face Detector
+- Model type: Histogram of Oriented Gradients (HOG)-based face detector.
+- Purpose: Detects faces in an image.
+- Details: It’s a pre-trained traditional machine learning model optimized for frontal face detection.
+- 
+2. Dlib’s Facial Landmark Predictor (68 landmarks)
+- Model file: shape_predictor_68_face_landmarks.dat
+- Model type: Ensemble of Regression Trees (ERT)
+- Purpose: Detects 68 facial landmark points including eyes, nose, mouth, jawline, and eyebrows.
+- Usage: Used to identify key facial structure for alignment and swapping.
+- Pre-trained on: iBUG 300-W dataset.
+
+## 🧮 Algorithms
+
+1. Convex Hull & Delaunay Triangulation
+- Purpose: Define a mesh over the face to ensure local geometric consistency during warping.
+- Used for: Dividing face into triangles for precise affine transformations.
+
+2. Affine Warping
+- Purpose: Warps each triangle from source to target face using affine transformation.
+- Method: cv.getAffineTransform() and cv.warpAffine().
+
+3. Seamless Cloning
+- Function: cv.seamlessClone()
+- Mode: cv.NORMAL_CLONE
+- Purpose: Blends the warped face into the background smoothly without visible seams.
+- Based on: Poisson image editing.
+
 ## 📝 Tutorial
 
 ### Step 1: Import Libraries
