@@ -76,11 +76,11 @@ import matplotlib.pyplot as plt
 
 ### Step 2: Download Resources
 
-```cmd
+```sh
 !wget http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2 -O shape_predictor_68_face_landmarks.dat.bz2
 ```
 
-```cmd
+```sh
 !wget https://raw.githubusercontent.com/AsadiAhmad/Face-Swap/main/Pictures/jensen_huang.jpg -O jensen_huang.jpg
 !wget https://raw.githubusercontent.com/AsadiAhmad/Face-Swap/main/Pictures/elon_musk.jpg -O elon_musk.jpg
 ```
