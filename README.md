@@ -35,7 +35,14 @@ You can easily run this code on google colab by just clicking this badge [![Open
 
 ## 📝 Tutorial
 
+### Step 1: Import Libraries
 
+```python
+import numpy as np
+import cv2 as cv
+import dlib
+import matplotlib.pyplot as plt
+```
 
 ## 🪪 License
 
